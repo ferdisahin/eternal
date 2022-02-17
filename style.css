@@ -1,5 +1,23 @@
-/*
-! tailwindcss v3.0.22 | MIT License | https://tailwindcss.com
+/*!
+Theme Name: Eternal
+Theme URI: https://www.ferdisahin.com.tr
+Author: Ferdi Sahin
+Author URI: https://www.ferdisahin.com.tr
+Description: Personal Blog Theme
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: eternal
+Tags: custom-menu
+
+This theme, like WordPress, is licensed under the GPL.
+
+*/
+
+/*! tailwindcss v3.0.22 | MIT License | https://tailwindcss.com
+
 */
 
 /*
@@ -1031,4 +1049,20 @@ html {
   font-size: 17px;
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.entry-content a {
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity));
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.entry-content a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(12 74 110 / var(--tw-text-opacity));
 }

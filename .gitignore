@@ -1,0 +1,14 @@
+/.eslintrc
+/.stylelintrc.json
+/composer.json
+/input.css
+/LICENSE
+/node_modules
+/package-lock.json
+/package.json
+/phpcs.xml.dist
+/README.md
+/readme.txt
+/style-main.css
+/style-rtl.css
+/tailwind.config.js
